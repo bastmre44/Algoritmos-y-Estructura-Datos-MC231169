@@ -1,0 +1,11 @@
+Public class NextFrequency Options{
+    public static void execute(IRadio radio){
+        if (radio.getState(()){
+            radio.NextFrequency();
+            System.out.prinln("La frecuencia actual es  " +radio.getCurrentFrequency());
+        }else{
+            System.out.prinln("La radio esta apagada encienda la radio para cambiar de frecuencia");
+
+        }
+    }
+}
